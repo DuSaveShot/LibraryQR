@@ -25,7 +25,7 @@ xcopy /s /e /y "%TEMP_FOLDER%\*" "%DESTINATION_FOLDER%"
 rem Удаляем временную папку
 rd /s /q "%TEMP_FOLDER%"
 
-echo "Install Complete ✅✔	."
+echo "Install Complete."
 
 pause >nul
 
