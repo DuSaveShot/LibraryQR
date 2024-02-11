@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 > nul
 setlocal
 
 rem Указываем путь к программе 7-Zip
@@ -25,7 +26,7 @@ xcopy /s /e /y "%TEMP_FOLDER%\*" "%DESTINATION_FOLDER%"
 rem Удаляем временную папку
 rd /s /q "%TEMP_FOLDER%"
 
-echo "Install Complete."
+echo ---Установка завершена---
 
 pause >nul
 
